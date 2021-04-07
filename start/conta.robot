@@ -14,4 +14,11 @@ Quando abro uma nova conta deve retornar saldo ZERADO
 
     # Log     ${saldo_final}
 
+Quando faço um depósito deve refletir o valor no meu saldo
+    Abrir Conta
+    ${valor_deposito}   Convert To Number  100
+    Deposita            ${valor_deposito}
 
+    ${saldo_final}      Obter Saldo  
+
+    Should Be Equal     ${saldo_final}      ${valor_deposito}
