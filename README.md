@@ -33,28 +33,34 @@ ZSH | é um interpretador de comando para shell scripting cuja finalidade é fac
 
 ## Passos de Configuração no Linux:
 
-1 - Instalar Chrome no Linux<br>
-    * https://support.google.com/chrome/a/answer/9025903?hl=pt-BR
+1 - Instalar Chrome no Linux:
 
-2 - Trocando o shell BASH por ZSH via WGET(opcional)<br>
-    * $ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+* https://support.google.com/chrome/a/answer/9025903?hl=pt-BR
 
-3 - Configurando o ZSH<br>
-    * Terminal > Preferences > Profiles > New Profiles<br>
-    * Em "Command" selecionar a opção "Run a custom command instead of my shell<br>
-    * Em "Custom Command" digite "zsh" e fechar<br>
-    * Retorna ao terminal em preferências e selecione o profile criado como padrão<br>
+2 - Trocando o shell BASH por ZSH via WGET(opcional):
+
+* $ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
+
+3 - Configurando o ZSH:
+
+* Terminal > Preferences > Profiles > New Profiles<br>
+
+* Em "Command" selecionar a opção "Run a custom command instead of my shell<br>
+* Em "Custom Command" digite "zsh" e fechar<br>
+* Retorna ao terminal em preferências e selecione o profile criado como padrão<br>
 
 
-4 - Instalar e configurar o Python3 + PIP3<br>
-    * python3: $ sudo apt-get install python3<br>
-    * pip: $ sudo apt-get install python3-pip<br>
+4 - Instalar e configurar o Python3 + PIP3:
+
+* python3: $ sudo apt-get install python3<br>
+* pip: $ sudo apt-get install python3-pip<br>
 
 
 5 - Escolher uma IDE de uso para automatizar seus testes. Ex: VSCode
 
-6 - Instalar o Robot Framework<br> 
-    * pip3 install robotframework
+6 - Instalar o Robot Framework:
+
+* pip3 install robotframework
 
 <br>
 
