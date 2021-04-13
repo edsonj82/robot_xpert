@@ -33,14 +33,14 @@ ZSH | é um interpretador de comando para shell scripting cuja finalidade é fac
 
 ## Passos de Configuração no Linux:
 
-1 - Instalar Chrome no Linux
+1 - Instalar Chrome no Linux:
     https://support.google.com/chrome/a/answer/9025903?hl=pt-BR
 
-2 - Trocando o shell BASH por ZSH via WGET(opcional)
+2 - Trocando o shell BASH por ZSH via WGET(opcional):
     $ sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"
 
-3 - Configurando o ZSH
-    Terminal > Preferences > Profiles > New Profiles
+3 - Configurando o ZSH<br>
+    Terminal > Preferences > Profiles > New Profiles<br>
     Em "Command" selecionar a opção "Run a custom command instead of my shell
     Em "Custom Command" digite "zsh" e fechar
     Retorna ao terminal em preferências e selecione o profile criado como padrão
